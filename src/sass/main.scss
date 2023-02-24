@@ -1,15 +1,44 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 3rem;   
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.fa-light {
+	color: white;
 }
 
 .textLogo {
-    margin: 0;
-    font-family: 'Shantell Sans', cursive;
+  margin: 0;
+  font-family: 'Shantell Sans', cursive;
 }
+
+.fa-solid {
+  color: white;
+  
+}
+
+.menuBtn span {
+	background-color: white;
+  display: block;
+  margin-bottom: 4px;
+	height: 4px;
+	width: 25px;
+  border-radius: 5px;
+}
+
+.menuBtn {
+	height: 35px;
+	width: 35px;
+  background: transparent;
+  border: 0;
+}
+
