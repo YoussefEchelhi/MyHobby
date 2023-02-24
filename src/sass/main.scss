@@ -12,6 +12,9 @@ header {
   flex-direction: row;
   justify-content: space-around; 
   align-items: center;
+  z-index: 2;
+  position: relative;
+
 }
 
 .fa-light {
@@ -42,16 +45,17 @@ header {
   border: 0;
 }
 
-.container {
+.section {
   outline: 2px solid black;
   margin: auto;
-  height: 70vh;
+  min-height: fit-content;
   width: 90vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(253, 250, 247);
+  z-index: 0;
 }
 
 .category {
@@ -67,6 +71,8 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .number1 {
@@ -99,9 +105,9 @@ hr {
 .movieContainer2 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  margin-top: 20px;
   max-width: 500px;
-
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .number2 {
@@ -130,9 +136,9 @@ hr {
 .movieContainer3 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  margin-top: 20px;
   max-width: 500px;
-
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .number3 {
@@ -161,9 +167,9 @@ hr {
 .movieContainer4 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  margin-top: 20px;
   max-width: 500px;
-
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .number4 {
@@ -188,3 +194,30 @@ hr {
   color: white;
   font-weight: 700;
 }
+
+
+@media screen and (min-width: 1024px){
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .movieContainer1 {
+    max-width: 335px;
+  }
+
+  .movieContainer2 {
+    max-width: 335px;
+  }
+
+  .movieContainer3 {
+    max-width: 335px;
+  }
+
+  .movieContainer4 {
+    min-width: 335px;
+  }
+
+  
+} 
