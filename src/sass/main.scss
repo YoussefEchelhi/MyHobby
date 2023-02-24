@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Shantell Sans', cursive;
+
 }
 
 header {
@@ -18,7 +20,6 @@ header {
 
 .textLogo {
   margin: 0;
-  font-family: 'Shantell Sans', cursive;
 }
 
 .fa-solid {
@@ -53,7 +54,6 @@ header {
 }
 
 .category {
-  font-family: 'Shantell Sans', cursive;
   text-align: center;
 }
 
@@ -62,3 +62,65 @@ hr {
   background-color: black;
 }
 
+.movieContainer1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.number1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.movieInfo h3 {
+  margin-top: 0;
+}
+
+.movieContainer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 20px;
+}
+
+.number2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.movieInfo2 h3 {
+  margin-top: 0;
+}
+
+.movieContainer3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 20px;
+}
+
+.number3 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.movieInfo3 h3 {
+  margin-top: 0;
+}
+
+.movieContainer4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 20px;
+}
+
+.number4 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.movieInfo4 h3 {
+  margin-top: 0;
+}
