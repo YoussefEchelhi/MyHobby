@@ -22,8 +22,7 @@ header {
 }
 
 .fa-solid {
-  color: white;
-  
+  color: white; 
 }
 
 .menuBtn span {
@@ -40,5 +39,26 @@ header {
 	width: 35px;
   background: transparent;
   border: 0;
+}
+
+.container {
+  outline: 2px solid black;
+  margin: auto;
+  height: 70vh;
+  width: 90vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.category {
+  font-family: 'Shantell Sans', cursive;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  background-color: black;
 }
 
