@@ -51,6 +51,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgb(253, 250, 247);
 }
 
 .category {
@@ -65,6 +66,7 @@ hr {
 .movieContainer1 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
+  max-width: 500px;
 }
 
 .number1 {
@@ -73,14 +75,33 @@ hr {
   font-size: 1.5rem;
 }
 
+.movieInfo {
+  position: relative;
+}
+
 .movieInfo h3 {
   margin-top: 0;
+}
+
+#arrow {
+  color: white;
+}
+
+.movieInfo button {
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
 }
 
 .movieContainer2 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   margin-top: 20px;
+  max-width: 500px;
+
 }
 
 .number2 {
@@ -89,14 +110,29 @@ hr {
   font-size: 1.5rem;
 }
 
+.movieInfo2 {
+  position: relative;
+}
+
 .movieInfo2 h3 {
   margin-top: 0;
+}
+
+.movieInfo2 button {
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
 }
 
 .movieContainer3 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   margin-top: 20px;
+  max-width: 500px;
+
 }
 
 .number3 {
@@ -105,14 +141,29 @@ hr {
   font-size: 1.5rem;
 }
 
+.movieInfo3 {
+  position: relative;
+}
+
 .movieInfo3 h3 {
   margin-top: 0;
+}
+
+.movieInfo3 button {
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
 }
 
 .movieContainer4 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   margin-top: 20px;
+  max-width: 500px;
+
 }
 
 .number4 {
@@ -121,6 +172,19 @@ hr {
   font-size: 1.5rem;
 }
 
+.movieInfo4 {
+  position: relative;
+}
+
 .movieInfo4 h3 {
   margin-top: 0;
+}
+
+.movieInfo4 button {
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
 }
