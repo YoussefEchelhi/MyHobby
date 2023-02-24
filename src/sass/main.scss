@@ -1,7 +1,15 @@
+body {
+    margin: 0;
+}
+
 header {
     text-align: center;
-    align-items: center;
     background-color: black;
     color: white;
-    height: 3rem;
+    height: 3rem;   
+}
+
+.textLogo {
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
 }
